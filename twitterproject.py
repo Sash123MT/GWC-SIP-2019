@@ -7,7 +7,7 @@ from textblob  import TextBlob
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
-# Next we want to open the JSON file. We tag this file as
+# Next we want to open the JSON file. We tag this file as 
 # "r" read only because we are only going to look at the data.
 
 tweetFile = open("tweetdata.json", "r")
